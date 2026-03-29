@@ -1,0 +1,1325 @@
+{
+  "artist": "Charley Ramsay",
+  "contact": {
+    "email": "",
+    "phone": "",
+    "website": "",
+    "publisher": "",
+    "pro": "ASCAP"
+  },
+  "albums": [
+    {
+      "title": "Catalyst",
+      "year": "",
+      "tracks": [
+        {
+          "track": 1,
+          "title": "Ride",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "4:04",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "High",
+          "mood": [
+            "Defiant",
+            "Restless",
+            "Anthemic"
+          ],
+          "themes": [
+            "Escape",
+            "Frustration",
+            "Freedom",
+            "Rebellion"
+          ],
+          "genre": "Rock",
+          "subgenre": "Americana Rock",
+          "vocals": "Male",
+          "one_liner": "A restless anthem about breaking free from the weight of a broken world.",
+          "scene_suggestions": "Road trip montage, rebel protagonist moment, season finale escape scene, pickup truck commercial",
+          "similar_artists": "Tom Petty, Bruce Springsteen, The Wallflowers",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Kick it all to the curb time to get resurrected / Going to ride / Forget about your troubles 'cause we're going to get out of here and ride",
+          "spotify_url": "https://open.spotify.com/track/1hghS6rTJZJMsthRpvLemN",
+          "spotify_source": "album"
+        },
+        {
+          "track": 2,
+          "title": "Tangled in Translation",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Melancholy",
+            "Reflective",
+            "Bittersweet"
+          ],
+          "themes": [
+            "Miscommunication",
+            "Relationships",
+            "Forgiveness",
+            "Redemption"
+          ],
+          "genre": "Rock",
+          "subgenre": "Alternative Rock",
+          "vocals": "Male",
+          "one_liner": "Two people falling apart in the space between what they mean and what they say.",
+          "scene_suggestions": "Couple arguing scene, therapy montage, relationship drama turning point, indie film dialogue break",
+          "similar_artists": "Counting Crows, The Fray, Matchbox Twenty",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "The weight of words can color gray / The choices that we've made / And what we say",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 3,
+          "title": "Cisco",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "4:16",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-High",
+          "mood": [
+            "Warm",
+            "Nostalgic",
+            "Celebratory",
+            "Wistful"
+          ],
+          "themes": [
+            "Homecoming",
+            "Escape",
+            "Family",
+            "Brotherhood",
+            "Rural Life"
+          ],
+          "genre": "Country Rock",
+          "subgenre": "Americana / Texas Country",
+          "vocals": "Male",
+          "one_liner": "A working man's escape to a place where the fire, the music, and the people make everything right.",
+          "scene_suggestions": "Campfire gathering scene, buddies road trip, rural Texas setting, whiskey brand commercial, family reunion montage",
+          "similar_artists": "Robert Earl Keen, Cross Canadian Ragweed, Turnpike Troubadours",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "I'm going to Cisco to sit by the fire darling / I'm going to Cisco to sing with the band / When the weight of the world pushes down / We go to Cisco",
+          "spotify_url": "https://open.spotify.com/track/3G30eemp4JH4orSVswFpUQ",
+          "spotify_source": "album"
+        },
+        {
+          "track": 4,
+          "title": "Money See Monkey Do",
+          "writers": [
+            "Rob Thomas",
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "High",
+          "mood": [
+            "Satirical",
+            "Edgy",
+            "Sarcastic",
+            "Energetic"
+          ],
+          "themes": [
+            "Social Media",
+            "Fame",
+            "Internet Culture",
+            "Viral Celebrity"
+          ],
+          "genre": "Rock",
+          "subgenre": "Alternative Rock",
+          "vocals": "Male",
+          "one_liner": "A biting takedown of viral fame culture and the absurd things people do for clicks.",
+          "scene_suggestions": "Social media satire montage, reality TV scene, dark comedy, tech/influencer documentary",
+          "similar_artists": "Beck, Cake, Barenaked Ladies",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Monkey see monkey do / You're almost famous dude / The beast feeds on blood / Humiliation too",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 5,
+          "title": "The Push and Pull",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "4:37",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Tender",
+            "Hopeful",
+            "Intimate",
+            "Warm"
+          ],
+          "themes": [
+            "Love",
+            "Commitment",
+            "Family",
+            "Endurance",
+            "Devotion"
+          ],
+          "genre": "Rock",
+          "subgenre": "Heartland Rock / Adult Contemporary",
+          "vocals": "Male",
+          "one_liner": "A love letter to staying together when everything else tries to pull you apart.",
+          "scene_suggestions": "Wedding scene, couple's montage, family drama resolution, romantic comedy heart moment, anniversary commercial",
+          "similar_artists": "John Mellencamp, Bryan Adams, Edwin McCain",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "The push and pull world can come between us / Everybody takes / And the paper tigers try to complicate / But your every way makes me want to stay",
+          "spotify_url": "https://open.spotify.com/track/08MDnF8CIgmtoAbYtcjdoc",
+          "spotify_source": "album"
+        },
+        {
+          "track": 6,
+          "title": "Polygraph 2",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:39",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-High",
+          "mood": [
+            "Confrontational",
+            "Dark",
+            "Intense",
+            "Brooding"
+          ],
+          "themes": [
+            "Deception",
+            "Hypocrisy",
+            "Corruption",
+            "Accountability"
+          ],
+          "genre": "Rock",
+          "subgenre": "Alternative Rock",
+          "vocals": "Male",
+          "one_liner": "A searing confrontation with someone who lies, manipulates, and never looks back.",
+          "scene_suggestions": "Courtroom drama, political thriller, betrayal reveal, crime documentary, corporate whistleblower scene",
+          "similar_artists": "Pearl Jam, U2, Alanis Morissette",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "And you stare right through me / As you play in your house of glass / You paint these walls with what you see / Polygraph, polygraph",
+          "spotify_url": "https://open.spotify.com/track/5MLFLqEV35be3pHxZZqCmq",
+          "spotify_source": "album"
+        },
+        {
+          "track": 7,
+          "title": "15 Minutes",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:40",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Wry",
+            "Observational",
+            "Philosophical",
+            "Restless"
+          ],
+          "themes": [
+            "Fame",
+            "Authenticity",
+            "Media",
+            "Identity",
+            "Purpose"
+          ],
+          "genre": "Rock",
+          "subgenre": "Indie Rock / Americana",
+          "vocals": "Male",
+          "one_liner": "A sardonic meditation on everybody chasing their fifteen minutes while missing the point.",
+          "scene_suggestions": "Behind-the-scenes showbiz drama, coming-of-age turning point, indie film montage, news media satire",
+          "similar_artists": "R.E.M., The Wallflowers, Semisonic",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "The difference between the brave and the bold / One acts the story of the other's story told / Building castles in the air like a dream make-believe / 15 minutes of fame we need",
+          "spotify_url": "https://open.spotify.com/track/3ZS8tySN1pdyNs9DPpqNHo",
+          "spotify_source": "album"
+        },
+        {
+          "track": 8,
+          "title": "Maddening Crowd",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:58",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-Low",
+          "mood": [
+            "Romantic",
+            "Longing",
+            "Bittersweet",
+            "Cinematic"
+          ],
+          "themes": [
+            "Love",
+            "Escape",
+            "Disillusionment",
+            "Romance",
+            "Shelter"
+          ],
+          "genre": "Rock",
+          "subgenre": "Soft Rock / Ballad",
+          "vocals": "Male",
+          "one_liner": "Lovers seeking refuge from a world that promised more than it delivered.",
+          "scene_suggestions": "Beach scene, couple eloping, romantic drama climax, wedding first dance, travel/resort commercial, period drama",
+          "similar_artists": "Coldplay, Snow Patrol, The Verve",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Far from the maddening crowd / With oceans and Champaign / You said: let me help you to find your way",
+          "spotify_url": "https://open.spotify.com/track/0IVxsbh4soAmC3GVfMGDre",
+          "spotify_source": "album"
+        },
+        {
+          "track": 9,
+          "title": "Goldfish",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:30",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Playful",
+            "Quirky",
+            "Frustrated",
+            "Wistful"
+          ],
+          "themes": [
+            "Relationships",
+            "Restlessness",
+            "Incompatibility",
+            "Searching"
+          ],
+          "genre": "Rock",
+          "subgenre": "Indie Rock / Folk Rock",
+          "vocals": "Male",
+          "one_liner": "A whimsical series of metaphors for a relationship going in circles with no way to win.",
+          "scene_suggestions": "Romantic comedy montage, quirky indie film, dating app commercial, sitcom relationship arc",
+          "similar_artists": "Paul Simon, Jason Mraz, Jack Johnson",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Hey, hey little goldfish / What are you going through? / And you and me are treading water / We both have little much to do",
+          "spotify_url": "https://open.spotify.com/track/0QDl1rXJOubOfQV9l53lje",
+          "spotify_source": "album"
+        },
+        {
+          "track": 10,
+          "title": "She Treats Her Body Like",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "4:10",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-High",
+          "mood": [
+            "Raw",
+            "Gritty",
+            "Compassionate",
+            "Urgent"
+          ],
+          "themes": [
+            "Self-Destruction",
+            "Addiction",
+            "Loneliness",
+            "Lost Youth",
+            "Empathy"
+          ],
+          "genre": "Rock",
+          "subgenre": "Blues Rock / Americana",
+          "vocals": "Male",
+          "one_liner": "A raw portrait of a woman spiraling through bars and mornings, trying to fill the void with noise.",
+          "scene_suggestions": "Character-driven indie drama, addiction storyline, gritty bar scene, late-night montage, documentary on mental health",
+          "similar_artists": "Ryan Adams, The Black Keys, Lucinda Williams",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "She treats her body like she was on fire / She jumps from a little higher",
+          "spotify_url": "https://open.spotify.com/track/3Bebn3TVpiBRxTQx4XfqQE",
+          "spotify_source": "album"
+        },
+        {
+          "track": 11,
+          "title": "Catalyst (to the 7)",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Protective",
+            "Tender",
+            "Hopeful",
+            "Bittersweet"
+          ],
+          "themes": [
+            "Parenthood",
+            "Growing Up",
+            "Protection",
+            "Letting Go",
+            "New Beginnings"
+          ],
+          "genre": "Rock",
+          "subgenre": "Heartland Rock / Ballad",
+          "vocals": "Male",
+          "one_liner": "A parent watching their child wake up to the cold real world, wishing they could still fix it with a kiss.",
+          "scene_suggestions": "Child leaving home scene, parenting drama, coming-of-age transition, graduation montage, family insurance/brand commercial",
+          "similar_artists": "Bruce Springsteen, Bob Seger, John Mayer",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "You're awake now / I can no longer fix things with a kiss / You're awake now / What drives you as you walk out into this cold new day",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 12,
+          "title": "Suzanne",
+          "writers": [
+            "Rob Thomas"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:26",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Sardonic",
+            "Resigned",
+            "Dark Humor",
+            "Wounded"
+          ],
+          "themes": [
+            "Breakup",
+            "Blame",
+            "Martyrdom",
+            "Moving On"
+          ],
+          "genre": "Rock",
+          "subgenre": "Alternative Rock",
+          "vocals": "Male",
+          "one_liner": "A sharp, self-aware goodbye where the narrator volunteers to play the villain so she can keep her story.",
+          "scene_suggestions": "Post-breakup scene, character walking away, dramedy relationship fallout, end credits song",
+          "similar_artists": "Matchbox Twenty, Gin Blossoms, The Goo Goo Dolls",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Ask me and I'll be your villain / You be the martyr with a broken heart / You're well-rehearsed for that part",
+          "spotify_url": "https://open.spotify.com/track/61JyS4f7lKrtaD0RoBGhoL",
+          "spotify_source": "album"
+        }
+      ]
+    },
+    {
+      "title": "Dirt Floor Camelot",
+      "year": "2024",
+      "tracks": [
+        {
+          "track": 1,
+          "title": "Dirt Floor Camelot",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:36",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Joyful",
+            "Humble",
+            "Defiant",
+            "Warm"
+          ],
+          "themes": [
+            "Love",
+            "Simplicity",
+            "Gratitude",
+            "Home",
+            "Class"
+          ],
+          "genre": "Country",
+          "subgenre": "Americana / Country Rock",
+          "vocals": "Male",
+          "one_liner": "A love song to living large in a small house -- no castle needed when you've got each other.",
+          "scene_suggestions": "Blue-collar love story, small-town romance, dancing-in-the-kitchen scene, home improvement commercial, family sitcom heart moment",
+          "similar_artists": "Zac Brown Band, Chris Stapleton, Jason Isbell",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Our dirt floor Camelot / Yea girl, we're far from Shangri La / No big ass castle, ain't got a lot / Just our dirt floor Camelot",
+          "spotify_url": "https://open.spotify.com/track/3AL7Ofp7vunBJj1WUClB8b",
+          "spotify_source": "album"
+        },
+        {
+          "track": 2,
+          "title": "You Bide Your Time",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:24",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Compassionate",
+            "Reflective",
+            "Encouraging",
+            "Soulful"
+          ],
+          "themes": [
+            "Patience",
+            "Healing",
+            "Forgiveness",
+            "Life Journey",
+            "Letting Go"
+          ],
+          "genre": "Rock",
+          "subgenre": "Americana / Soul Rock",
+          "vocals": "Male",
+          "one_liner": "A gentle push to stop holding on to hurt and start living before time runs out.",
+          "scene_suggestions": "Recovery montage, funeral/memorial scene, character turning point, grief counseling, hospice/healthcare ad",
+          "similar_artists": "Ray LaMontagne, The Lumineers, Brandi Carlile",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "You Bide Your Time searching for something / Something just from reach / Don't hold so tight to all of this hurting / There's no more waiting, no more waiting for me",
+          "spotify_url": "https://open.spotify.com/track/5quSvSg1o7bsIXF4yF842E",
+          "spotify_source": "album"
+        },
+        {
+          "track": 3,
+          "title": "Lockhart",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "2:38",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-Low",
+          "mood": [
+            "Proud",
+            "Warm",
+            "Grounded",
+            "Community"
+          ],
+          "themes": [
+            "Belonging",
+            "Small Town",
+            "Home",
+            "Community",
+            "Acceptance"
+          ],
+          "genre": "Folk",
+          "subgenre": "Americana / Folk Rock",
+          "vocals": "Male",
+          "one_liner": "An outsider who found home in a small Texas town where everyone's welcome and everyone's known.",
+          "scene_suggestions": "Small-town establishing scene, character arriving in new town, Texas tourism ad, community documentary, real estate brand",
+          "similar_artists": "James Taylor, John Prine, Todd Snider",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Where everyone's welcome / Yeah everyone's known / Lockhart's our home",
+          "spotify_url": "https://open.spotify.com/track/0MBCG6yESVluVRBA4OCGwi",
+          "spotify_source": "album"
+        },
+        {
+          "track": 4,
+          "title": "Helicopters and Horses",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:26",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Patriotic",
+            "Somber",
+            "Hopeful",
+            "Grateful"
+          ],
+          "themes": [
+            "War",
+            "Military",
+            "Peace",
+            "Freedom",
+            "Family",
+            "Sacrifice"
+          ],
+          "genre": "Country Rock",
+          "subgenre": "Americana / Folk",
+          "vocals": "Male",
+          "one_liner": "A soldier's-eye gratitude song that questions war while honoring those who serve far from home.",
+          "scene_suggestions": "Military homecoming, Veterans Day tribute, war documentary, patriotic montage, memorial service, military family ad",
+          "similar_artists": "Bruce Springsteen, Steve Earle, John Mellencamp",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "I believe in country / And that we'll find our way / But far, far from our family's porches / Helicopters and Horses",
+          "spotify_url": "https://open.spotify.com/track/3Dg0ZTfKSwArfJlcNiozop",
+          "spotify_source": "album"
+        },
+        {
+          "track": 5,
+          "title": "Peace, Salam, Shalom",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:15",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Spiritual",
+            "Hopeful",
+            "Aching",
+            "Resilient"
+          ],
+          "themes": [
+            "Peace",
+            "Loss",
+            "Faith",
+            "Healing",
+            "Unity",
+            "Grief"
+          ],
+          "genre": "Rock",
+          "subgenre": "Americana / World-influenced",
+          "vocals": "Male",
+          "one_liner": "A prayer for peace across every language, written from hospital halls and battlefields of the heart.",
+          "scene_suggestions": "Peace rally scene, hospital bedside, interfaith documentary, humanitarian campaign, end-of-war scene, NGO ad",
+          "similar_artists": "U2, Peter Gabriel, Eddie Vedder",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "On and on I'll hang on to / Hang on to a version of you / Can you let it go / Peace, Salam, Shalom",
+          "spotify_url": "https://open.spotify.com/track/4YXu7BHe9Hr9cohRDYpitf",
+          "spotify_source": "album"
+        },
+        {
+          "track": 6,
+          "title": "Another Perfect Day",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "2:20",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Low",
+          "mood": [
+            "Content",
+            "Lazy",
+            "Charming",
+            "Simple"
+          ],
+          "themes": [
+            "Everyday Life",
+            "Love",
+            "Routine",
+            "Simplicity",
+            "Gratitude"
+          ],
+          "genre": "Pop Rock",
+          "subgenre": "Acoustic / Soft Rock",
+          "vocals": "Male",
+          "one_liner": "A love song disguised as a lazy Saturday where nothing happens and everything is perfect.",
+          "scene_suggestions": "Morning routine montage, couple's lazy weekend, coffee brand ad, lifestyle commercial, rom-com B-roll, closing credits feel-good",
+          "similar_artists": "Jack Johnson, Ben Folds, Matt Nathanson",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Crazy, Saturday / Nothing really happened much today / Lazy, you and me / It's simply just another perfect day",
+          "spotify_url": "https://open.spotify.com/track/5U4bGb8jSFn8hSDp9XdMOl",
+          "spotify_source": "album"
+        },
+        {
+          "track": 7,
+          "title": "When You Come Home",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:19",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-Low",
+          "mood": [
+            "Tender",
+            "Ceremonial",
+            "Hopeful",
+            "Emotional"
+          ],
+          "themes": [
+            "Family",
+            "Homecoming",
+            "Parenthood",
+            "Marriage",
+            "Legacy"
+          ],
+          "genre": "Folk",
+          "subgenre": "Americana / Folk Ballad",
+          "vocals": "Male",
+          "one_liner": "A parent's blessing to children leaving home -- and a promise the door is always open.",
+          "scene_suggestions": "Wedding scene, military homecoming, graduation, family reunion, birth of grandchild, greeting card/family brand ad",
+          "similar_artists": "John Prine, James Taylor, The Avett Brothers",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "From highlands 'to gate / Know we shall wait / For you to come home / From sage to snow / Whether whither or grow / Remember from where you came",
+          "spotify_url": "https://open.spotify.com/track/22ktjhoDcP7CJ8OcQauqci",
+          "spotify_source": "album"
+        },
+        {
+          "track": 8,
+          "title": "Forever and a Day",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:37",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Low",
+          "mood": [
+            "Vulnerable",
+            "Philosophical",
+            "Intimate",
+            "Haunting"
+          ],
+          "themes": [
+            "Mortality",
+            "Aging",
+            "Forgiveness",
+            "Love",
+            "Legacy"
+          ],
+          "genre": "Rock",
+          "subgenre": "Ballad / Soft Rock",
+          "vocals": "Male",
+          "one_liner": "A quiet meditation on wanting to live forever but knowing love is what actually lasts.",
+          "scene_suggestions": "End-of-life scene, elderly couple montage, hospital drama, anti-aging brand (tasteful), memorial tribute, indie film climax",
+          "similar_artists": "Coldplay, Damien Rice, Iron & Wine",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Who wants to live forever / Who wants to live forever / Forever and a Day",
+          "spotify_url": "https://open.spotify.com/track/0RmZuOAp9safbLqKKU73ew",
+          "spotify_source": "album"
+        },
+        {
+          "track": 9,
+          "title": "Norman Rockwell",
+          "writers": [
+            "Rob Thomas"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "4:24",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Disillusioned",
+            "Sardonic",
+            "Raw",
+            "Restless"
+          ],
+          "themes": [
+            "American Dream",
+            "Disillusionment",
+            "Nostalgia",
+            "Authenticity"
+          ],
+          "genre": "Rock",
+          "subgenre": "Alternative Rock",
+          "vocals": "Male",
+          "one_liner": "The Norman Rockwell painting cracks open to reveal the American dream is really a scream.",
+          "scene_suggestions": "Americana satire, suburban unraveling scene, dark comedy, political drama, documentary on American culture",
+          "similar_artists": "Matchbox Twenty, Counting Crows, The Wallflowers",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Americana painting / Apple pie so real / Now here's your star / Norman Rockwell nightmare / American dream / Now that's a scream",
+          "spotify_url": "https://open.spotify.com/track/7hTXuysHFCbx8zmcVozReG",
+          "spotify_source": "album"
+        },
+        {
+          "track": 10,
+          "title": "Let The Day Begin",
+          "writers": [
+            "Michael Been"
+          ],
+          "publisher": "",
+          "pro": "",
+          "duration": "3:10",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-High",
+          "mood": [
+            "Uplifting",
+            "Anthemic",
+            "Celebratory",
+            "Inclusive"
+          ],
+          "themes": [
+            "Humanity",
+            "Unity",
+            "Hope",
+            "Tribute",
+            "Everyday Heroes"
+          ],
+          "genre": "Rock",
+          "subgenre": "Anthem Rock",
+          "vocals": "Male",
+          "one_liner": "A toast to every dreamer, worker, soldier, and stranger -- the anthem humanity deserves.",
+          "scene_suggestions": "Opening montage, inspirational documentary, Olympics/sports promo, community campaign, charity gala, season premiere opener",
+          "similar_artists": "The Call, U2, Simple Minds",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Here's to the babies of the brand new world / Here's to beauty of the stars / Here's to the travelers on the open roads / Here's to the dreamers at the bars",
+          "spotify_url": "https://open.spotify.com/track/7Mu2zVXRzbtD7MFSzjaDUd",
+          "spotify_source": "album"
+        }
+      ]
+    },
+    {
+      "title": "Bottle Rocket Sunsets",
+      "year": "2026",
+      "tracks": [
+        {
+          "track": 1,
+          "title": "If I Could",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Low-Medium",
+          "mood": [
+            "Aching",
+            "Vulnerable",
+            "Haunting",
+            "Intimate"
+          ],
+          "themes": [
+            "Unrequited Love",
+            "Letting Go",
+            "Longing",
+            "Heartbreak"
+          ],
+          "genre": "Country",
+          "subgenre": "Americana / Country Ballad",
+          "vocals": "Male",
+          "one_liner": "A man whispering to the ghost of a love he can't release, no matter how hard he tries.",
+          "scene_suggestions": "Post-breakup reflection, late-night drive, lost love montage, indie romance, whiskey brand ad",
+          "similar_artists": "Chris Stapleton, Ryan Adams, Patty Griffin",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Hear me whisper, soft and low / 'If I could, I'd let you go' / But I can't just let you go",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 2,
+          "title": "Somebody Somewhere",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:35",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-High",
+          "mood": [
+            "Empathetic",
+            "Encouraging",
+            "Gritty",
+            "Anthemic"
+          ],
+          "themes": [
+            "Resilience",
+            "Compassion",
+            "Struggle",
+            "Hope",
+            "Empathy"
+          ],
+          "genre": "Rock",
+          "subgenre": "Heartland Rock / Americana",
+          "vocals": "Male",
+          "one_liner": "Everybody's got a broken story -- cowboy up, pull the curtains back, and let the good pour in.",
+          "scene_suggestions": "Underdog montage, recovery storyline, community rally, anti-bullying campaign, charity ad, sports comeback",
+          "similar_artists": "John Mellencamp, Tom Petty, Bon Jovi",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Don't let them cut you down, my friend / Break it down, cowboy up and try again / Pull those curtain back and let the good pour in",
+          "spotify_url": "https://open.spotify.com/track/2saIzU2jQxAVIFSaxyQBnc",
+          "spotify_source": "artist_top"
+        },
+        {
+          "track": 3,
+          "title": "Heart, Boots, and Soul",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:43",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "High",
+          "mood": [
+            "Energetic",
+            "Joyful",
+            "Defiant",
+            "Fun"
+          ],
+          "themes": [
+            "Dance",
+            "Joy",
+            "Celebration",
+            "Standing Up",
+            "Love"
+          ],
+          "genre": "Country Rock",
+          "subgenre": "Country / Honky-Tonk Rock",
+          "vocals": "Male",
+          "one_liner": "A boot-stomping, sawdust-kicking anthem that dares you to get loud and never let them bring you down.",
+          "scene_suggestions": "Honky-tonk bar scene, dance montage, boot brand commercial, country music festival promo, line dance scene, truck ad",
+          "similar_artists": "Brooks & Dunn, Eric Church, Midland",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Fill your boots / Kick the saw dust up now won't you / Jump back, find that, 2-step / Feed your soul / Never let them ever bring you down",
+          "spotify_url": "https://open.spotify.com/track/0yvQQlRknnAk4lXVPCy8am",
+          "spotify_source": "artist_top"
+        },
+        {
+          "track": 4,
+          "title": "Bottle Rocket Sunsets",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:27",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Low-Medium",
+          "mood": [
+            "Nostalgic",
+            "Dreamy",
+            "Bittersweet",
+            "Innocent"
+          ],
+          "themes": [
+            "Childhood",
+            "First Love",
+            "Nostalgia",
+            "Memory",
+            "Innocence"
+          ],
+          "genre": "Country",
+          "subgenre": "Americana / Folk",
+          "vocals": "Male",
+          "one_liner": "A grown man's ache for those childhood summers of creek chairs, freckles, and a princess who was his moon and sun.",
+          "scene_suggestions": "Childhood flashback, summer nostalgia montage, coming-of-age film, family vacation ad, 4th of July scene, memoir documentary",
+          "similar_artists": "John Prine, Tyler Childers, Sturgill Simpson",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Take me back to my boyhood when we were young / My childhood princess you were my moon and sun",
+          "spotify_url": "https://open.spotify.com/track/2oSf87Lb4R5BrvN5n7IJKG",
+          "spotify_source": "artist_top"
+        },
+        {
+          "track": 5,
+          "title": "Judge's Son",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Dark",
+            "Cinematic",
+            "Tragic",
+            "Redemptive"
+          ],
+          "themes": [
+            "Crime",
+            "Fate",
+            "Upbringing",
+            "Justice",
+            "Redemption",
+            "Faith"
+          ],
+          "genre": "Country",
+          "subgenre": "Outlaw Country / Dark Americana",
+          "vocals": "Male",
+          "one_liner": "A condemned man born on the wrong road who never had a soul to show him right from wrong.",
+          "scene_suggestions": "Crime drama, courtroom scene, outlaw character intro, Southern Gothic film, true crime documentary, prison storyline",
+          "similar_artists": "Johnny Cash, Chris Stapleton, Colter Wall",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "They call him the judge's son / No-one-ever-taught him what's good, what's right, what's wrong",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 6,
+          "title": "I Wish You Well",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-Low",
+          "mood": [
+            "Bittersweet",
+            "Peaceful",
+            "Graceful",
+            "Final"
+          ],
+          "themes": [
+            "Farewell",
+            "Death",
+            "Friendship",
+            "Peace",
+            "Legacy"
+          ],
+          "genre": "Folk",
+          "subgenre": "Americana / Folk",
+          "vocals": "Male",
+          "one_liner": "The most graceful goodbye ever written -- no regrets, no complaints, just lay me to rest next to you.",
+          "scene_suggestions": "Funeral scene, character departure, end-of-series finale, farewell montage, hospice/palliative care ad, eulogy moment",
+          "similar_artists": "James Taylor, Willie Nelson, Kris Kristofferson",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Can't complain, no regrets / Where we're going I ain't been yet / I wish you well",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 7,
+          "title": "Tip The Band",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-High",
+          "mood": [
+            "Fun",
+            "Scrappy",
+            "Charming",
+            "Self-Deprecating"
+          ],
+          "themes": [
+            "Music",
+            "Hustle",
+            "Performing",
+            "Camaraderie",
+            "Live Music"
+          ],
+          "genre": "Rock",
+          "subgenre": "Roots Rock / Pub Rock",
+          "vocals": "Male",
+          "one_liner": "The anthem for every broke band in a broke-down van who plays all night for the love of it.",
+          "scene_suggestions": "Band on the road, live music venue scene, music documentary, instrument brand ad, music festival promo, backstage comedy",
+          "similar_artists": "The Hold Steady, Old 97's, Drive-By Truckers",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Don't forget to tip the band / Stomp your feet, clap your hands / We'll play all night, if in we can",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 8,
+          "title": "'Morrows' New Day Sun",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Low",
+          "mood": [
+            "Gentle",
+            "Soothing",
+            "Protective",
+            "Lullaby"
+          ],
+          "themes": [
+            "Parenthood",
+            "Safety",
+            "Childhood",
+            "Comfort",
+            "Night"
+          ],
+          "genre": "Folk",
+          "subgenre": "Lullaby / Acoustic Folk",
+          "vocals": "Male",
+          "one_liner": "A father's lullaby promising the world can wait until tomorrow's sun.",
+          "scene_suggestions": "Bedtime scene, newborn montage, children's product ad, baby brand commercial, parenting documentary, nursery scene",
+          "similar_artists": "James Taylor, Norah Jones, Iron & Wine",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "So little one / You must be brave / And try to fall asleep / Daddy's here, Mommy's near / You're safe and sound with me",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        },
+        {
+          "track": 9,
+          "title": "Our Last Days Together",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "2:45",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-Low",
+          "mood": [
+            "Bittersweet",
+            "Hopeful",
+            "Romantic",
+            "Resolute"
+          ],
+          "themes": [
+            "Aging Together",
+            "Love",
+            "Legacy",
+            "Farewell",
+            "Commitment"
+          ],
+          "genre": "Rock",
+          "subgenre": "Soft Rock / Ballad",
+          "vocals": "Male",
+          "one_liner": "A promise that the last chapter will be the best one -- names in the sand, wine in hand, grand to the end.",
+          "scene_suggestions": "Elderly couple scene, retirement montage, end-of-life love story, anniversary celebration, wedding vow scene, life insurance ad",
+          "similar_artists": "Elton John, Billy Joel, Rod Stewart",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Our last days together will be grand / We'll draw our names in the sand / We'll take our time and sip our wine",
+          "spotify_url": "https://open.spotify.com/track/1sC6Z6r8hFkm1FbDAu2Fhk",
+          "spotify_source": "artist_top"
+        }
+      ]
+    },
+    {
+      "title": "Dear Jane",
+      "year": "",
+      "tracks": [
+        {
+          "track": 1,
+          "title": "Tiger Town",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "3:23",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Cinematic",
+            "Dark",
+            "Nostalgic",
+            "Southern Gothic"
+          ],
+          "themes": [
+            "Small Town",
+            "Loss",
+            "Memory",
+            "Marriage",
+            "Haunted Past"
+          ],
+          "genre": "Rock",
+          "subgenre": "Americana / Southern Rock",
+          "vocals": "Male",
+          "one_liner": "A haunted Southern town where weddings stop trains and epitaphs welcome you to die.",
+          "scene_suggestions": "Southern Gothic opening, small-town mystery, True Detective-style scene, character arriving in strange town, literary drama",
+          "similar_artists": "Drive-By Truckers, Jason Isbell, Townes Van Zandt",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Ease the whip from off these horses pull the reins back off the ledge / You draw a line through crooked courses / To the place where you belong",
+          "spotify_url": "https://open.spotify.com/track/5nsMkLkoVDhk4Ykziw5LSL",
+          "spotify_source": "album"
+        },
+        {
+          "track": 2,
+          "title": "Heaven and Wine",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "4:46",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium-High",
+          "mood": [
+            "Seductive",
+            "Yearning",
+            "Sultry",
+            "Cinematic"
+          ],
+          "themes": [
+            "Desire",
+            "Pursuit",
+            "Romance",
+            "Obsession",
+            "Temptation"
+          ],
+          "genre": "Rock",
+          "subgenre": "Blues Rock / Americana",
+          "vocals": "Male",
+          "one_liner": "A slow-burn seduction from screen doors to houseboats to moonshine -- heaven and wine, perfectly paired.",
+          "scene_suggestions": "Romantic seduction scene, riverboat setting, Southern romance, bourbon/wine brand ad, steamy drama, bayou scene",
+          "similar_artists": "Chris Isaak, Leon Bridges, Hozier",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Take out my heart and give me rest / Take out my lungs you steal my breathe / Too late too late to change me",
+          "spotify_url": "https://open.spotify.com/track/4oJvKZep5x1qmYjz8iaR1J",
+          "spotify_source": "album"
+        },
+        {
+          "track": 3,
+          "title": "Anything",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "2:54",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Desperate",
+            "Apologetic",
+            "Raw",
+            "Pleading"
+          ],
+          "themes": [
+            "Regret",
+            "Apology",
+            "Relationship",
+            "Self-Awareness",
+            "Second Chances"
+          ],
+          "genre": "Rock",
+          "subgenre": "Alternative Rock / Americana",
+          "vocals": "Male",
+          "one_liner": "A man who came home too drunk and too late, begging to be anything she needs before she walks out.",
+          "scene_suggestions": "Morning-after argument, relationship on the brink, character hitting rock bottom, dramedy turning point, rehab storyline",
+          "similar_artists": "Matchbox Twenty, Hozier, Gary Clark Jr.",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "Everyone here knows why you're leaving / Everyone including me / It's not too late to say you're sorry / Let me be your anything",
+          "spotify_url": "https://open.spotify.com/track/3SE1ce3maytet98TcaakT5",
+          "spotify_source": "album"
+        },
+        {
+          "track": 4,
+          "title": "Did Van Gough Start Out This Way",
+          "writers": [
+            "Charley Ramsay"
+          ],
+          "publisher": "",
+          "pro": "ASCAP",
+          "duration": "",
+          "key": "",
+          "tempo_bpm": "",
+          "energy": "Medium",
+          "mood": [
+            "Grand",
+            "Romantic",
+            "Self-Deprecating",
+            "Passionate"
+          ],
+          "themes": [
+            "Obsessive Love",
+            "Grand Gestures",
+            "Art",
+            "Foolishness",
+            "Devotion"
+          ],
+          "genre": "Rock",
+          "subgenre": "Indie Rock / Americana",
+          "vocals": "Male",
+          "one_liner": "A fool in love making grand impossible promises -- wondering if even Van Gogh started this crazy.",
+          "scene_suggestions": "Romantic comedy climax, grand gesture scene, artist biopic, art gallery scene, love letter montage, quirky indie romance",
+          "similar_artists": "The Shins, Death Cab for Cutie, Wilco",
+          "instrumental_available": false,
+          "stems_available": false,
+          "lyrics_excerpt": "The party's fading but the picture's clear / What a fool I make on these worn out stairs / But still you stay and we complicate / Did Van Gough start out this way?",
+          "spotify_url": "",
+          "spotify_source": "not_found"
+        }
+      ]
+    }
+  ]
+}

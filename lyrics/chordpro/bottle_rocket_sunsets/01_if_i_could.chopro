@@ -1,13 +1,18 @@
 {title: If I Could}
-{artist: Charley Ramsay}
 {album: Bottle Rocket Sunsets}
+{copyright: Charles Ramsay (ASCAP)}
 {year: 2026}
 {key: }
+{meta: harp }
 {tempo: }
 
 {comment: Intro}
 Cuz I can't go another day just wondering where you are
 Wishes lost, upon a star
+
+{start_of_comment: Intro}
+A man whispering to the ghost of a love he can't release, no matter how hard he tries.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 Awake tonight, my thoughts to chase

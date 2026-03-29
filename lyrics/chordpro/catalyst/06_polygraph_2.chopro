@@ -1,8 +1,11 @@
 {title: Polygraph 2}
-{artist: Charley Ramsay}
 {album: Catalyst}
+{copyright: Charles Ramsay (ASCAP)}
 {key: }
+{meta: harp }
 {tempo: }
+{duration: 3:39}
+{meta: url https://open.spotify.com/track/5MLFLqEV35be3pHxZZqCmq}
 
 {start_of_bridge: Intro}
 Come on confess just say it
@@ -10,6 +13,10 @@ Why don't you spit it out?
 No one here is going to judge you
 Just speak the words and leave no doubt
 {end_of_bridge}
+
+{start_of_comment: Intro}
+A searing confrontation with someone who lies, manipulates, and never looks back.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 You seem to think you've got a direct line to the truth

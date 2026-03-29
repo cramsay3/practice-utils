@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Song One-Sheet - Charley Ramsay</title>
+<style>
+  :root {
+    --bg: #fff;
+    --text: #1a1a1a;
+    --text-muted: #666;
+    --accent: #8a6d2b;
+    --border: #ddd;
+    --tag-bg: #f5f0e6;
+    --tag-border: #d4c9a8;
+  }
+
+  @media print {
+    body { padding: 0; }
+    .no-print { display: none !important; }
+    .one-sheet { box-shadow: none; border: none; page-break-after: always; }
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #f0f0f0;
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem;
+  }
+
+  .controls {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+    flex-wrap: wrap;
+  }
+
+  .controls label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+  }
+
+  select, button {
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    background: #fff;
+    cursor: pointer;
+  }
+
+  button {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  button:hover { opacity: 0.9; }
+
+  .one-sheet {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    background: #fff;
+    padding: 3rem;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+  }
+
+  .os-header {
+    text-align: center;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .os-artist {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+  }
+
+  .os-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0.25rem 0;
+  }
+
+  .os-album {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .os-oneliner {
+    font-size: 1.1rem;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 2rem;
+    font-style: italic;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .os-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    .os-grid { grid-template-columns: 1fr; }
+    .one-sheet { padding: 1.5rem; }
+  }
+
+  .os-section h4 {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--accent);
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.2rem;
+  }
+
+  .os-section p {
+    font-size: 0.9rem;
+  }
+
+  .os-section .muted { color: var(--text-muted); }
+
+  .os-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.2rem;
+  }
+
+  .os-tag {
+    padding: 0.1rem 0.5rem;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    font-size: 0.75rem;
+    color: var(--accent);
+  }
+
+  .os-full { grid-column: 1 / -1; }
+
+  .os-excerpt {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.2rem;
+    font-style: italic;
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 0.95rem;
+    margin-top: 0.3rem;
+  }
+
+  .os-scene {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-top: 0.3rem;
+  }
+
+  .os-footer {
+    text-align: center;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .os-footer .pro { color: var(--accent); font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div class="controls no-print">
+  <div>
+    <label for="songSelect">Select Song</label><br>
+    <select id="songSelect"></select>
+  </div>
+  <button onclick="printAll()">Print All One-Sheets</button>
+  <button onclick="window.print()">Print Current</button>
+</div>
+
+<div id="sheets"></div>
+
+<script>
+let catalogData = null;
+let allTracks = [];
+
+async function load() {
+  const resp = await fetch('catalog.json');
+  catalogData = await resp.json();
+
+  const select = document.getElementById('songSelect');
+
+  catalogData.albums.forEach(album => {
+    album.tracks.forEach(t => {
+      allTracks.push({ ...t, albumTitle: album.title, albumYear: album.year });
+      const opt = document.createElement('option');
+      opt.value = allTracks.length - 1;
+      opt.textContent = `${album.title} - ${t.title}`;
+      select.appendChild(opt);
+    });
+  });
+
+  select.addEventListener('change', () => renderSingle(parseInt(select.value)));
+  renderSingle(0);
+}
+
+function buildSheet(t) {
+  return `
+    <div class="one-sheet">
+      <div class="os-header">
+        <div class="os-artist">Charley Ramsay</div>
+        <div class="os-title">${t.title}</div>
+        <div class="os-album">from "${t.albumTitle}"${t.albumYear ? ' (' + t.albumYear + ')' : ''}</div>
+      </div>
+      <div class="os-oneliner">"${t.one_liner}"</div>
+      <div class="os-grid">
+        <div class="os-section">
+          <h4>Writers</h4>
+          <p>${t.writers.join(', ')}</p>
+        </div>
+        <div class="os-section">
+          <h4>Genre</h4>
+          <p>${t.genre} / ${t.subgenre}</p>
+        </div>
+        <div class="os-section">
+          <h4>Energy</h4>
+          <p>${t.energy}${t.tempo_bpm ? ' -- ' + t.tempo_bpm + ' BPM' : ''}</p>
+          <p class="muted">${t.key ? 'Key of ' + t.key : ''}${t.duration ? ' / ' + t.duration : ''}</p>
+        </div>
+        <div class="os-section">
+          <h4>Vocals</h4>
+          <p>${t.vocals}</p>
+        </div>
+        <div class="os-section">
+          <h4>Mood</h4>
+          <div class="os-tags">${t.mood.map(m => `<span class="os-tag">${m}</span>`).join('')}</div>
+        </div>
+        <div class="os-section">
+          <h4>Themes</h4>
+          <div class="os-tags">${t.themes.map(th => `<span class="os-tag">${th}</span>`).join('')}</div>
+        </div>
+        <div class="os-section os-full">
+          <h4>Scene Suggestions</h4>
+          <p class="os-scene">${t.scene_suggestions}</p>
+        </div>
+        <div class="os-section os-full">
+          <h4>Lyric Excerpt</h4>
+          <div class="os-excerpt">"${t.lyrics_excerpt}"</div>
+        </div>
+        <div class="os-section os-full">
+          <h4>Similar Artists</h4>
+          <p class="muted">${t.similar_artists}</p>
+        </div>
+      </div>
+      <div class="os-footer">
+        <span class="pro">ASCAP</span> &middot; Charley Ramsay &middot; All Rights Reserved
+        <br>For sync licensing inquiries, contact management
+      </div>
+    </div>
+  `;
+}
+
+function renderSingle(idx) {
+  document.getElementById('sheets').innerHTML = buildSheet(allTracks[idx]);
+}
+
+function printAll() {
+  document.getElementById('sheets').innerHTML = allTracks.map(t => buildSheet(t)).join('');
+  setTimeout(() => window.print(), 300);
+}
+
+load();
+</script>
+</body>
+</html>

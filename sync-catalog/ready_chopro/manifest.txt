@@ -1,0 +1,6 @@
+SongbookPro Ready ChordPro Bundle
+
+Total files: 26
+
+Includes only songs with Spotify URL + duration metadata.
+Excluded songs are listed in sync-catalog/songbookpro_population.csv with status not_found_on_spotify.

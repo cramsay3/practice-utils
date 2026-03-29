@@ -1,9 +1,16 @@
 {title: Somebody Somewhere}
-{artist: Charley Ramsay}
 {album: Bottle Rocket Sunsets}
+{copyright: Charles Ramsay (ASCAP)}
 {year: 2026}
 {key: }
+{meta: harp }
 {tempo: }
+{duration: 3:35}
+{meta: url https://open.spotify.com/track/2saIzU2jQxAVIFSaxyQBnc}
+
+{start_of_comment: Intro}
+Everybody's got a broken story -- cowboy up, pull the curtains back, and let the good pour in.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 Somebody somewhere died alone in bed from a broken heart

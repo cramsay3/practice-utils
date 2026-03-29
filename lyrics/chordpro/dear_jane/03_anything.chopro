@@ -1,8 +1,15 @@
 {title: Anything}
-{artist: Charley Ramsay}
 {album: Dear Jane}
+{copyright: Charles Ramsay (ASCAP)}
 {key: }
+{meta: harp }
 {tempo: }
+{duration: 2:54}
+{meta: url https://open.spotify.com/track/3SE1ce3maytet98TcaakT5}
+
+{start_of_comment: Intro}
+A man who came home too drunk and too late, begging to be anything she needs before she walks out.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 AM it's all coming back to me

@@ -1,9 +1,12 @@
 {title: Our Last Days Together}
-{artist: Charley Ramsay}
 {album: Bottle Rocket Sunsets}
+{copyright: Charles Ramsay (ASCAP)}
 {year: 2026}
 {key: D}
+{meta: harp }
 {tempo: }
+{duration: 2:45}
+{meta: url https://open.spotify.com/track/1sC6Z6r8hFkm1FbDAu2Fhk}
 
 {start_of_chorus: Chorus 1}
 [D]Our last days [A]together
@@ -14,6 +17,10 @@ And sip our wine
 Our last days together
 Will be fine
 {end_of_chorus}
+
+{start_of_comment: Intro}
+A promise that the last chapter will be the best one -- names in the sand, wine in hand, grand to the end.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 Head in hand, reasons can

@@ -1,8 +1,15 @@
 {title: Goldfish}
-{artist: Charley Ramsay}
 {album: Catalyst}
+{copyright: Charles Ramsay (ASCAP)}
 {key: }
+{meta: harp }
 {tempo: }
+{duration: 3:30}
+{meta: url https://open.spotify.com/track/0QDl1rXJOubOfQV9l53lje}
+
+{start_of_comment: Intro}
+A whimsical series of metaphors for a relationship going in circles with no way to win.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 Hey, hey little goldfish

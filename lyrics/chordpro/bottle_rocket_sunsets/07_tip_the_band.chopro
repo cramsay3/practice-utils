@@ -1,9 +1,14 @@
 {title: Tip The Band}
-{artist: Charley Ramsay}
 {album: Bottle Rocket Sunsets}
+{copyright: Charles Ramsay (ASCAP)}
 {year: 2026}
 {key: }
+{meta: harp }
 {tempo: }
+
+{start_of_comment: Intro}
+The anthem for every broke band in a broke-down van who plays all night for the love of it.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 Don't forget to tip the band

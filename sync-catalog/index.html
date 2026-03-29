@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charley Ramsay - Sync Licensing Catalog</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --surface: #1a1a1a;
+    --surface2: #242424;
+    --border: #333;
+    --text: #e8e8e8;
+    --text-muted: #999;
+    --accent: #c9a84c;
+    --accent-dim: #8a7033;
+    --tag-bg: #2a2520;
+    --tag-border: #4a3f2f;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .header {
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+  }
+
+  .header .subtitle {
+    font-size: 1rem;
+    color: var(--text-muted);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+
+  .header .contact-line {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .header .pro-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--accent-dim);
+    color: var(--accent);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    margin-top: 0.5rem;
+  }
+
+  .controls {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .controls label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+  }
+
+  .search-box {
+    flex: 1;
+    min-width: 250px;
+    padding: 0.6rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.95rem;
+  }
+
+  .search-box::placeholder { color: #555; }
+  .search-box:focus { outline: none; border-color: var(--accent-dim); }
+
+  select {
+    padding: 0.6rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+
+  select:focus { outline: none; border-color: var(--accent-dim); }
+
+  .stats {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    padding: 0.5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .catalog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem 4rem;
+  }
+
+  .album-section {
+    margin-bottom: 3rem;
+  }
+
+  .album-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 1rem 0 0.75rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1rem;
+  }
+
+  .album-header h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+  }
+
+  .album-header .album-year {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .album-header .track-count {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-left: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .song-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    margin-bottom: 0.75rem;
+    transition: border-color 0.2s;
+  }
+
+  .song-card:hover {
+    border-color: var(--accent-dim);
+  }
+
+  .song-card-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .song-card-header:hover {
+    background: var(--surface2);
+  }
+
+  .track-num {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    width: 2rem;
+    flex-shrink: 0;
+  }
+
+  .song-title {
+    font-size: 1.05rem;
+    flex: 1;
+  }
+
+  .song-meta-inline {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .song-meta-inline span {
+    white-space: nowrap;
+  }
+
+  .expand-arrow {
+    color: var(--text-muted);
+    margin-left: 1rem;
+    transition: transform 0.2s;
+    font-size: 0.7rem;
+  }
+
+  .song-card.open .expand-arrow {
+    transform: rotate(90deg);
+  }
+
+  .song-detail {
+    display: none;
+    padding: 0 1.25rem 1.25rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .song-card.open .song-detail {
+    display: block;
+  }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 700px) {
+    .detail-grid { grid-template-columns: 1fr; }
+    .song-meta-inline { display: none; }
+  }
+
+  .detail-section h4 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+
+  .detail-section p {
+    font-size: 0.9rem;
+    color: var(--text);
+    line-height: 1.5;
+  }
+
+  .detail-section .muted {
+    color: var(--text-muted);
+  }
+
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    font-size: 0.75rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+
+  .lyric-excerpt {
+    font-style: italic;
+    color: var(--text-muted);
+    border-left: 2px solid var(--accent-dim);
+    padding-left: 1rem;
+    margin-top: 0.3rem;
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+
+  .scene-text {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .writers-text {
+    font-size: 0.85rem;
+  }
+
+  .full-width {
+    grid-column: 1 / -1;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Charley Ramsay</h1>
+  <div class="subtitle">Sync Licensing Catalog</div>
+  <div class="pro-badge">ASCAP</div>
+</div>
+
+<div class="controls">
+  <div>
+    <label for="search">Search</label><br>
+    <input type="text" id="search" class="search-box" placeholder="Song, mood, theme, scene...">
+  </div>
+  <div>
+    <label for="albumFilter">Album</label><br>
+    <select id="albumFilter">
+      <option value="all">All Albums</option>
+    </select>
+  </div>
+  <div>
+    <label for="moodFilter">Mood</label><br>
+    <select id="moodFilter">
+      <option value="all">All Moods</option>
+    </select>
+  </div>
+  <div>
+    <label for="energyFilter">Energy</label><br>
+    <select id="energyFilter">
+      <option value="all">All Energy</option>
+    </select>
+  </div>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="catalog" id="catalog"></div>
+
+<div class="footer">
+  Charley Ramsay - All Rights Reserved - For sync licensing inquiries, contact management
+</div>
+
+<script>
+let catalogData = null;
+
+async function loadCatalog() {
+  const resp = await fetch('catalog.json');
+  catalogData = await resp.json();
+  buildFilters();
+  render();
+}
+
+function buildFilters() {
+  const albumSelect = document.getElementById('albumFilter');
+  const moodSelect = document.getElementById('moodFilter');
+  const energySelect = document.getElementById('energyFilter');
+
+  const moods = new Set();
+  const energies = new Set();
+
+  catalogData.albums.forEach(album => {
+    const opt = document.createElement('option');
+    opt.value = album.title;
+    opt.textContent = album.title;
+    albumSelect.appendChild(opt);
+
+    album.tracks.forEach(t => {
+      t.mood.forEach(m => moods.add(m));
+      energies.add(t.energy);
+    });
+  });
+
+  [...moods].sort().forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m;
+    opt.textContent = m;
+    moodSelect.appendChild(opt);
+  });
+
+  [...energies].sort().forEach(e => {
+    const opt = document.createElement('option');
+    opt.value = e;
+    opt.textContent = e;
+    energySelect.appendChild(opt);
+  });
+}
+
+function render() {
+  const query = document.getElementById('search').value.toLowerCase();
+  const albumFilter = document.getElementById('albumFilter').value;
+  const moodFilter = document.getElementById('moodFilter').value;
+  const energyFilter = document.getElementById('energyFilter').value;
+  const container = document.getElementById('catalog');
+  container.innerHTML = '';
+
+  let totalShown = 0;
+  let totalSongs = 0;
+
+  catalogData.albums.forEach(album => {
+    if (albumFilter !== 'all' && album.title !== albumFilter) return;
+
+    const matchingTracks = album.tracks.filter(t => {
+      totalSongs++;
+      const searchable = [
+        t.title, t.one_liner, t.scene_suggestions,
+        t.lyrics_excerpt, t.genre, t.subgenre,
+        ...t.mood, ...t.themes, t.similar_artists,
+        ...t.writers
+      ].join(' ').toLowerCase();
+
+      if (query && !searchable.includes(query)) return false;
+      if (moodFilter !== 'all' && !t.mood.includes(moodFilter)) return false;
+      if (energyFilter !== 'all' && t.energy !== energyFilter) return false;
+      return true;
+    });
+
+    if (matchingTracks.length === 0) return;
+    totalShown += matchingTracks.length;
+
+    const section = document.createElement('div');
+    section.className = 'album-section';
+    section.innerHTML = `
+      <div class="album-header">
+        <h2>${album.title}</h2>
+        <span class="album-year">${album.year || ''}</span>
+        <span class="track-count">${matchingTracks.length} track${matchingTracks.length !== 1 ? 's' : ''}</span>
+      </div>
+    `;
+
+    matchingTracks.forEach(t => {
+      const card = document.createElement('div');
+      card.className = 'song-card';
+      card.innerHTML = `
+        <div class="song-card-header" onclick="this.parentElement.classList.toggle('open')">
+          <span class="track-num">${String(t.track).padStart(2, '0')}</span>
+          <span class="song-title">${t.title}</span>
+          <div class="song-meta-inline">
+            <span>${t.genre}</span>
+            <span>${t.energy}</span>
+          </div>
+          <span class="expand-arrow">&#9654;</span>
+        </div>
+        <div class="song-detail">
+          <div class="detail-grid">
+            <div class="detail-section">
+              <h4>One-Liner</h4>
+              <p>${t.one_liner}</p>
+            </div>
+            <div class="detail-section">
+              <h4>Writers / Genre</h4>
+              <p class="writers-text">${t.writers.join(', ')}</p>
+              <p class="muted" style="margin-top:0.3rem">${t.genre} / ${t.subgenre}</p>
+              <p class="muted">${t.vocals} Vocals</p>
+            </div>
+            <div class="detail-section">
+              <h4>Mood</h4>
+              <div class="tag-list">${t.mood.map(m => `<span class="tag">${m}</span>`).join('')}</div>
+            </div>
+            <div class="detail-section">
+              <h4>Themes</h4>
+              <div class="tag-list">${t.themes.map(th => `<span class="tag">${th}</span>`).join('')}</div>
+            </div>
+            <div class="detail-section">
+              <h4>Energy / Tempo</h4>
+              <p>${t.energy}${t.tempo_bpm ? ' / ' + t.tempo_bpm + ' BPM' : ''}</p>
+              <p class="muted" style="margin-top:0.2rem">${t.key ? 'Key: ' + t.key : ''}${t.duration ? ' / ' + t.duration : ''}</p>
+            </div>
+            <div class="detail-section">
+              <h4>Similar Artists</h4>
+              <p class="muted">${t.similar_artists}</p>
+            </div>
+            <div class="detail-section full-width">
+              <h4>Scene Suggestions</h4>
+              <p class="scene-text">${t.scene_suggestions}</p>
+            </div>
+            <div class="detail-section full-width">
+              <h4>Lyric Excerpt</h4>
+              <div class="lyric-excerpt">"${t.lyrics_excerpt}"</div>
+            </div>
+          </div>
+        </div>
+      `;
+      section.appendChild(card);
+    });
+
+    container.appendChild(section);
+  });
+
+  document.getElementById('stats').textContent =
+    `Showing ${totalShown} of ${catalogData.albums.reduce((sum, a) => sum + a.tracks.length, 0)} songs across ${catalogData.albums.length} albums`;
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('albumFilter').addEventListener('change', render);
+document.getElementById('moodFilter').addEventListener('change', render);
+document.getElementById('energyFilter').addEventListener('change', render);
+
+loadCatalog();
+</script>
+</body>
+</html>

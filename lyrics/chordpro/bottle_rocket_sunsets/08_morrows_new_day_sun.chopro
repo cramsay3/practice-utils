@@ -1,9 +1,14 @@
 {title: 'Morrows' New Day Sun}
-{artist: Charley Ramsay}
 {album: Bottle Rocket Sunsets}
+{copyright: Charles Ramsay (ASCAP)}
 {year: 2026}
 {key: }
+{meta: harp }
 {tempo: }
+
+{start_of_comment: Intro}
+A father's lullaby promising the world can wait until tomorrow's sun.
+{end_of_comment}
 
 {start_of_verse}
 The wind may blow

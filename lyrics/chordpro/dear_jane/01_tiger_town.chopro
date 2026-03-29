@@ -1,8 +1,15 @@
 {title: Tiger Town}
-{artist: Charley Ramsay}
 {album: Dear Jane}
+{copyright: Charles Ramsay (ASCAP)}
 {key: }
+{meta: harp }
 {tempo: }
+{duration: 3:23}
+{meta: url https://open.spotify.com/track/5nsMkLkoVDhk4Ykziw5LSL}
+
+{start_of_comment: Intro}
+A haunted Southern town where weddings stop trains and epitaphs welcome you to die.
+{end_of_comment}
 
 {start_of_verse: Verse 1}
 The old folks say a wedding day
